@@ -1,0 +1,63 @@
+#######################################
+############  usuário  ################
+#######################################
+
+# Criar usuário 1
+POST http://localhost:8000/usuarios HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "Antonieta",
+    "email": "antonieta@gmail.com",
+    "senha": "1234"
+}
+
+#######################################
+# Criar usuário 2
+POST http://localhost:8000/usuarios HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "Thor",
+    "email": "thor@gmail.com",
+    "senha": "1234"
+}
+#######################################
+# Pegar usuário pelo ID
+GET http://localhost:8000/usuarios/2 HTTP/1.1
+content-type: application/json
+
+#######################################
+# Pegar usuário pelo nome
+GET http://localhost:8000/usuarios/Thor HTTP/1.1
+content-type: application/json
+
+#######################################
+############  endereço  ###############
+#######################################
+
+# Criar endereço
+POST http://localhost:8000/endereco/1 HTTP/1.1
+content-type: application/json
+
+{
+    "rua": "Rua Ladrilhada",
+    "cep": "99999-999",
+    "cidade": "São Paulo",
+    "estado": "SP"
+}
+
+#######################################
+############  produto  ################
+#######################################
+
+# Criar produto
+POST http://localhost:8000/produto HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1,
+    "nome": "Sorvete",
+    "descricao": "Doce gelado",
+    "preco": 9.99
+}
