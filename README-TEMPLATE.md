@@ -126,14 +126,14 @@ Se for necessário configurar algo antes de iniciar o banco de dados insira os c
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
-- [motor](ttps://motor.readthedocs.io/en/stable/) 
-pydantic
-pymongo
-typing-extensions
-uvicorn
-fastapi
-python-dotenv
-pytest
+- [motor](https://motor.readthedocs.io/en/stable/) 
+- [pydantic](https://pydantic-docs.helpmanual.io/)
+- [pymongo}
+- [typing-extensions}
+- [uvicorn]
+- [fastapi]
+- [python-dotenv]
+- [pytest]
 
 ...
 
