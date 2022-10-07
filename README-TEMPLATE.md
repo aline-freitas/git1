@@ -19,8 +19,6 @@
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
-
 :small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
@@ -48,11 +46,11 @@ Insira os tópicos do README em links para facilitar a navegação do leitor
 
 ## Layout ou Deploy da Aplicação :dash:
 
-> Link do deploy da aplicação. Exemplo com netlify: https://certificates-for-everyone-womakerscode.netlify.app/
+> Link do deploy da aplicação. Exemplo com Heroku: 
 
 ... 
 
-Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
+
 
 ## Pré-requisitos
 
@@ -69,22 +67,40 @@ Liste todas as dependencias e libs que o usuário deve ter instalado na máquina
 
 ## Como rodar a aplicação :arrow_forward:
 
-No terminal, clone o projeto: 
+## Variável de ambiente:
+| name_env | value |
+|------------|------------|
+|DATABASE_URI|connection string Atlas|
 
-```
-git clone https://github.com/React-Bootcamp-WoMarkersCode/certificate-generator
-```
+## Instalação
+* Create venv
+    ```
+    $ virtualenv venv --python=3.10
+    ```
+    Linux
+    ```
+    $ source venv/bin/activate
+   ```
+   Windows
+    ```
+    $ .\venv\Scripts\activate
+   ```
+* Instalar bibliotecas
+     ```
+     $ pip install -r requirements.txt
+     ```
+## Execução
+  ```
+  $ python main.py
+   ```
 
-... 
-
-Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio projeto e verfique se o passo a passo funciona**
 
 ## Como rodar os testes
 
 Coloque um passo a passo para executar os testes
 
 ```
-$ npm test, rspec, etc 
+$ pytest
 ```
 
 ## Casos de Uso
@@ -93,17 +109,16 @@ Explique com mais detalhes como a sua aplicação poderia ser utilizada. O uso d
 
 Exemplo: Caso a sua aplicação tenha alguma funcionalidade de login apresente neste tópico os dados necessários para acessá-la.
 
-## JSON :floppy_disk:
+## Segurança :floppy_disk:
 
 ### Usuários: 
 
-|name|email|password|token|
-| -------- |-------- |-------- |-------- |
-|Usuário Padrão|lusuario@gmail.com|lais123|true|
+|name|email|password|
+| -------- |-------- |-------- |
+|Usuário Padrão|xxxxxxxx@gmail.com|senha|
 
 ... 
 
-Se quiser, coloque uma amostra do banco de dados 
 
 ## Iniciando/Configurando banco de dados
 
