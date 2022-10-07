@@ -1,17 +1,13 @@
-<h1>PROJETO CART LUIZA CODE</h1> 
+<h1>PROJETO FINAL BACKEND CARRINHO DE COMPRAS </h1> 
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
-  <img src="https://img.shields.io/static/v1?label=heroku&message=deploy&color=blue&style=for-the-badge&logo=heroku"/>
-  <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
-  <img src="http://img.shields.io/static/v1?label=Python&message=10.3&color=red&style=for-the-badge&logo=python"/>
-  <img src="http://img.shields.io/static/v1?label=Ruby%20On%20Rails%20&message=6.0.2.2&color=red&style=for-the-badge&logo=ruby"/>
-  <img src="http://img.shields.io/static/v1?label=TESTES&message=%3E100&color=GREEN&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
-</p>
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
+  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi"/>
+  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/>
 
-> Status do Projeto: :heavy_check_mark: :warning: concluido
+  
+
+> Status do Projeto: :heavy_check_mark:
 
 ### Tópicos 
 
@@ -22,16 +18,13 @@
 :small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
-
-... 
-
-Insira os tópicos do README em links para facilitar a navegação do leitor
+ 
 
 ## Descrição do projeto 
 
 <p align="justify">
-  Projeto Pyton criado com o objetivo de aplicar na prática um conjunto de APIs REst para um carrinho de compras, utilizando o
-  Framework FastAPI tendo os seus registros salvos no banco de dados MongoDB. 
+  Desenvolvimento de APIs Rest em Python de um carrinho de compras, utilizando o
+  Framework FastAPI e MongoDB para banco de dados. Servidor com Uvicorn.
 </p>
 
 ## Funcionalidades
@@ -42,14 +35,10 @@ Insira os tópicos do README em links para facilitar a navegação do leitor
 
 :heavy_check_mark: Carrinho de compras  
 
-:heavy_check_mark: Funcionalidade 4  
 
-## Layout ou Deploy da Aplicação :dash:
+## Deploy da Aplicação :dash:
 
 > Link do deploy da aplicação. Exemplo com Heroku: 
-
-... 
-
 
 
 ## Pré-requisitos
@@ -60,8 +49,6 @@ Insira os tópicos do README em links para facilitar a navegação do leitor
 :warning: [Uvicorn](https://www.uvicorn.org/)
 :warning: [Motor](https://motor.readthedocs.io/en/stable/)
 
-
-...
 
 Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação 
 
@@ -109,15 +96,13 @@ Explique com mais detalhes como a sua aplicação poderia ser utilizada. O uso d
 
 Exemplo: Caso a sua aplicação tenha alguma funcionalidade de login apresente neste tópico os dados necessários para acessá-la.
 
-## Segurança :floppy_disk:
+## Segurança :lock:
 
 ### Usuários: 
 
 |name|email|password|
 | -------- |-------- |-------- |
 |Usuário Padrão|xxxxxxxx@gmail.com|senha|
-
-... 
 
 
 ## Iniciando/Configurando banco de dados
@@ -133,9 +118,6 @@ Se for necessário configurar algo antes de iniciar o banco de dados insira os c
 - [fastapi](https://fastapi.tiangolo.com/)
 - [pytest](https://docs.pytest.org/en/7.1.x/)
 
-...
-
- 
 
 ## Tarefas em aberto
 
