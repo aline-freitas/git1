@@ -11,7 +11,7 @@
    <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </p>
 
-> Status do Projeto: :heavy_check_mark: :warning: (concluido, em desenvolvimento, etc)
+> Status do Projeto: :heavy_check_mark: :warning: concluido
 
 ### Tópicos 
 
@@ -32,16 +32,17 @@ Insira os tópicos do README em links para facilitar a navegação do leitor
 ## Descrição do projeto 
 
 <p align="justify">
-  Descrição breve do projeto compondo um paragrafo ou dois. 
+  Projeto Pyton criado com o objetivo de aplicar na prática um conjunto de APIs REst para um carrinho de compras, utilizando o
+  Framework FastAPI tendo os seus registros salvos no banco de dados MongoDB. 
 </p>
 
 ## Funcionalidades
 
-:heavy_check_mark: Funcionalidade 1  
+:heavy_check_mark: Cadastro de clientes 
 
-:heavy_check_mark: Funcionalidade 2  
+:heavy_check_mark: Gerenciamento de produtos  
 
-:heavy_check_mark: Funcionalidade 3  
+:heavy_check_mark: Carrinho de compras  
 
 :heavy_check_mark: Funcionalidade 4  
 
@@ -55,7 +56,8 @@ Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
 
 ## Pré-requisitos
 
-:warning: [Node](https://nodejs.org/en/download/)
+:warning: [Python](https://www.python.org/downloads/)
+:warning: [Mongodb](https://www.mongodb.com/try/download/community)
 
 ...
 
