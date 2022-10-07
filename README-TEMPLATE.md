@@ -58,6 +58,10 @@ Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
 
 :warning: [Python](https://www.python.org/downloads/)
 :warning: [Mongodb](https://www.mongodb.com/try/download/community)
+:warning: [FastApi](https://fastapi.tiangolo.com/)
+:warning: [Uvicorn](https://www.uvicorn.org/)
+:warning: [Motor](https://motor.readthedocs.io/en/stable/)
+
 
 ...
 
