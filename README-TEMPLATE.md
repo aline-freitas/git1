@@ -99,7 +99,9 @@ Exemplo: Caso a sua aplicação tenha alguma funcionalidade de login apresente n
 
 |name|email|password|token|avatar|
 | -------- |-------- |-------- |-------- |-------- |
-|Laís Rodrigues|lais.ches@gmail.com|lais123|true|https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9-U_HbQAipum9lWln3APcBIwng7T46hdBA42EJv8Hf6Z4fDT3&usqp=CAU|
+|Laís Rodrigues|lais.ches@gmail.com|lais123|true|[https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9-U_HbQAipum9lWln3APcBIwng7T46hdBA42EJv8Hf6Z4fDT3&usqp=CAU]|
+| -------- |-------- |-------- |-------- |-------- |
+|A|lais.ches@gmail.com|lais123|true|[https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9-U_HbQAipum9lWln3APcBIwng7T46hdBA42EJv8Hf6Z4fDT3&usqp=CAU]
 
 ... 
 
