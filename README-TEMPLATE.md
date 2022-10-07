@@ -128,20 +128,14 @@ Se for necessário configurar algo antes de iniciar o banco de dados insira os c
 
 - [motor](https://motor.readthedocs.io/en/stable/) 
 - [pydantic](https://pydantic-docs.helpmanual.io/)
-- [pymongo}
-- [typing-extensions}
-- [uvicorn]
-- [fastapi]
-- [python-dotenv]
-- [pytest]
+- [pymongo](https://pymongo.readthedocs.io/en/stable/)
+- [uvicorn](https://www.uvicorn.org/)
+- [fastapi](https://fastapi.tiangolo.com/)
+- [pytest](https://docs.pytest.org/en/7.1.x/)
 
 ...
 
-Liste as tecnologias utilizadas no projeto que **não** forem reconhecidas pelo Github 
-
-## Resolvendo Problemas :exclamation:
-
-Em [issues]() foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos. 
+ 
 
 ## Tarefas em aberto
 
@@ -160,8 +154,6 @@ Time responsável pelo desenvolvimento do projeto
 | [<img src="https://avatars.githubusercontent.com/u/111924977?v=4" width=115><br><sub>Aline Freitas</sub>](https://github.com/aline-freitas) |  [<img src="https://avatars.githubusercontent.com/u/56210395?v=4" width=115><br><sub>Ana Cortez</sub>](https://github.com/anacarolcortez) | [<img src="https://avatars.githubusercontent.com/u/75764138?v=4" width=115><br><sub>Laís Rodrigues</sub>](https://github.com/lais-ches) |  [<img src="https://avatars.githubusercontent.com/u/97643806?v=4" width=115><br><sub>Lilian Cândido</sub>](https://github.com/aguilar-lc) |  [<img src="https://avatars.githubusercontent.com/u/111457321?v=4" width=115><br><sub>Mayara Barbosa</sub>](https://github.com/MayBarbosa) |
 | :---: | :---: | :---: | :---: | :---: |
 
-## Licença 
 
-The [MIT License]() (MIT)
 
-Copyright :copyright: Ano - Titulo do Projeto
+Copyright :copyright: 2022 - Projeto Final Shopping Cart Magalu
