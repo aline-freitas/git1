@@ -126,8 +126,14 @@ Se for necessário configurar algo antes de iniciar o banco de dados insira os c
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
-- [React](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
-- [React PDF](https://react-pdf.org/)
+- [motor](ttps://motor.readthedocs.io/en/stable/) 
+pydantic
+pymongo
+typing-extensions
+uvicorn
+fastapi
+python-dotenv
+pytest
 
 ...
 
